@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -103,7 +103,238 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: zombie_explosion_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 193.33334
+        width: 97.8
+        height: 96.666664
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f59993e6201f5794a86f8aa8498630e8
+      internalID: 819715903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_explosion_1
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 193.33334
+        width: 97.8
+        height: 96.666664
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c3da6c0db9478c419df6acca16b1904
+      internalID: -2017718295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_explosion_2
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 193.33334
+        width: 97.8
+        height: 96.666664
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64fbd612094acc949857b70b883e26e0
+      internalID: 1714482379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_explosion_3
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 193.33334
+        width: 97.8
+        height: 96.666664
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fb14439ca671ed4086a0ff020e37bb3
+      internalID: -235146063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_explosion_4
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 193.33334
+        width: 97.8
+        height: 96.666664
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0e9aa56909741d4881f059dd2dd0869
+      internalID: 3675171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_explosion_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 97.333336
+        width: 97.8
+        height: 96.666664
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af203a8631184b549aa0381370ab9f92
+      internalID: 1348571955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_explosion_6
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 97.333336
+        width: 97.8
+        height: 96.666664
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51accc26c94e39c48bb6a12a474d9025
+      internalID: -1464237655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_explosion_7
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 97.333336
+        width: 97.8
+        height: 96.666664
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 426a603320883454ca8c1045596c0156
+      internalID: 1289689695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_explosion_8
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 97.333336
+        width: 97.8
+        height: 96.666664
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d050dce4d010cc9408788400bdc36aca
+      internalID: -796200289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_explosion_9
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 97.333336
+        width: 97.8
+        height: 96.666664
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec3c9746d9948ad48aaf06a1a6bc40d9
+      internalID: 77197041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_explosion_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1.3333359
+        width: 97.8
+        height: 96.666664
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5e9577276801e345b94c33af6777142
+      internalID: 2060505431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -114,7 +345,18 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      zombie_explosion_0: 819715903
+      zombie_explosion_3: -235146063
+      zombie_explosion_7: 1289689695
+      zombie_explosion_2: 1714482379
+      zombie_explosion_9: 77197041
+      zombie_explosion_1: -2017718295
+      zombie_explosion_5: 1348571955
+      zombie_explosion_4: 3675171
+      zombie_explosion_8: -796200289
+      zombie_explosion_10: 2060505431
+      zombie_explosion_6: -1464237655
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

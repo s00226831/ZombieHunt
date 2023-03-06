@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: eff32ad47a7e1b04081cd4a98db64783
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - IdleSprite: {instanceID: 0}
+  - AttackSprite: {instanceID: 0}
+  - BulletPrefab: {fileID: 5892760647589863988, guid: a1d6837f08a3a6e4190db8fcf349368f, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
