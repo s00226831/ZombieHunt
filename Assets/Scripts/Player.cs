@@ -10,8 +10,9 @@ public class Player : Character
     float v;
     Vector3 mouseWorldPosition;
 
-    public GameObject BulletPrefab;
-    public Transform BulletSpawnPoint;
+    public Bullet BulletPrefab;
+    public Vector3 BulletSpawnPoint;
+    
 
     public int Ammo = 20;
     public int maxAmmo = 20;
@@ -53,10 +54,12 @@ public class Player : Character
     {
         body.MovePosition(transform.position + new Vector3 (h,v,0) * movementSpeed * Time.deltaTime);
     }
-    void Fire()
+    public void Fire()
     {
-        Instantiate(BulletPrefab, BulletSpawnPoint);
-        
+        BulletSpawnPoint = transform.position;
+        Bullet inst = Instantiate(BulletPrefab, BulletSpawnPoint, Quaternion.identity);
+        inst.SetDirection(transform.up);
+
         Ammo--;
     }
     void RegenerateAmmo()

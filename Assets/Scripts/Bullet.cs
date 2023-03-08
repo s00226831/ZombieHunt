@@ -10,7 +10,7 @@ public class Bullet : MonoBehaviour
     void Start()
     {
         //Calls the cleanup method after 2 secs
-        Invoke("Cleanup", 2);
+        Invoke("CleanUp", 2);
     }
 
     public void SetDirection(Vector3 direction)
@@ -29,6 +29,9 @@ public class Bullet : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.gameObject.CompareTag("Roof"))
-            Destroy (gameObject);
+        {
+            Destroy(collision.gameObject);
+        }
+            
     }
 }
