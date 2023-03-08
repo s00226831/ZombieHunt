@@ -9,24 +9,24 @@ public class Zombie : Character
     public float MaxMovementSpeed = 3;
 
     public float AttackRange = 3;
-    GameObject player;
+    GameObject Player;
     
     protected override void Start()
     {
-        player = GameObject.FindGameObjectWithTag("Player");
+        Player = GameObject.FindGameObjectWithTag("Player");
         movementSpeed = Random.Range(MinMovementSpeed, MaxMovementSpeed);
-
+        
         base.Start();
     }
 
    
     void Update()
     {
-        if(Vector2.Distance(transform.position, player.transform.position) < AttackRange)
+        if(Vector2.Distance(transform.position, Player.transform.position) < AttackRange)
         {
             SetState(CharacterState.Attack);
 
-            transform.up = player.transform.position - transform.position;
+            transform.up = Player.transform.position - transform.position;
         }
         else
         {

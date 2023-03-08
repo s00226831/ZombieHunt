@@ -11,7 +11,7 @@ public class Player : Character
     Vector3 mouseWorldPosition;
 
     public Bullet BulletPrefab;
-    public Vector3 BulletSpawnPoint;
+    public Transform BulletSpawnPoint;
     
 
     public int Ammo = 20;
@@ -56,8 +56,7 @@ public class Player : Character
     }
     public void Fire()
     {
-        BulletSpawnPoint = transform.position;
-        Bullet inst = Instantiate(BulletPrefab, BulletSpawnPoint, Quaternion.identity);
+        Bullet inst = Instantiate(BulletPrefab, BulletSpawnPoint.position, Quaternion.identity);
         inst.SetDirection(transform.up);
 
         Ammo--;
