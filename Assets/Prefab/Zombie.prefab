@@ -126,7 +126,7 @@ MonoBehaviour:
   AttackSprite: {fileID: 21300000, guid: 7618051ee4a2ded4ea072f2f3287bcc6, type: 3}
   movementSpeed: 5
   Damage: 10
-  MinMovementSpeed: 1
+  MinMovementSpeed: 0.25
   MaxMovementSpeed: 2
   AttackRange: 3
 --- !u!58 &8872346318179893499

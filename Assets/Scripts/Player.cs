@@ -24,7 +24,7 @@ public class Player : Character
 
         base.Start();
     }
-    void Update()
+    private void Update()
     {
         h = Input.GetAxisRaw("Horizontal");
         v = Input.GetAxisRaw("Vertical");
@@ -37,6 +37,7 @@ public class Player : Character
         if (Input.GetButton("Fire2"))
         {
             SetState(CharacterState.Attack);
+
             if(Input.GetButtonDown("Fire1"))
             {
                 if (Ammo > 1)
