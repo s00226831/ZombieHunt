@@ -33,5 +33,7 @@ public class Character : MonoBehaviour
         {
             spriteRenderer.sprite = AttackSprite;
         }
+
+        State = newState;
     }
 }

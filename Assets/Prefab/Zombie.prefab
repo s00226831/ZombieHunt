@@ -102,7 +102,7 @@ Rigidbody2D:
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 10
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -126,7 +126,7 @@ MonoBehaviour:
   AttackSprite: {fileID: 21300000, guid: 7618051ee4a2ded4ea072f2f3287bcc6, type: 3}
   movementSpeed: 5
   Damage: 10
-  MinMovementSpeed: 0.25
+  MinMovementSpeed: 0.75
   MaxMovementSpeed: 2
   AttackRange: 3
 --- !u!58 &8872346318179893499
@@ -144,7 +144,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.215
+  m_Radius: 0.275
 --- !u!114 &8872346317169821889
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -157,7 +157,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ec06b7619176a44eb4a99cfedf61f5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Health: 1
-  MaxHealth: 100
+  Health: 100
   ZombieRemains: {fileID: 6420955811540628162, guid: 82723bbfe01e6cd42a20154662073dee, type: 3}
   ZombieExplosion: {fileID: 6873602715512879153, guid: c5706578a5c4ee847a5bcf5a2be10457, type: 3}

@@ -5,7 +5,7 @@ using UnityEngine;
 public class ObjectHealth : MonoBehaviour
 {
     public int Health = 100;
-    public int MaxHealth = 100;
+    //public int MaxHealth = 100;
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -25,11 +25,11 @@ public class ObjectHealth : MonoBehaviour
     //        Health = MaxHealth;
     //    }
     //}
-    public void SubtractHealth(int amount)
+    public void SubtractHealth(int damageTaken)
     {
-         amount -= Health;
+        Health -= damageTaken;
 
-        if (Health >= 0)
+        if (Health <= 0)
         {
             OnDeath();
         }

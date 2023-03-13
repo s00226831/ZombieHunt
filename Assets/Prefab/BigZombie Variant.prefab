@@ -13,11 +13,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8872346317169821889, guid: 40900764ab4d3864e95c4748fbb0d356, type: 3}
       propertyPath: MaxHealth
-      value: 500
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 8872346318179893376, guid: 40900764ab4d3864e95c4748fbb0d356, type: 3}
       propertyPath: m_Name
-      value: BigZombie
+      value: BigZombie Variant
       objectReference: {fileID: 0}
     - target: {fileID: 8872346318179893500, guid: 40900764ab4d3864e95c4748fbb0d356, type: 3}
       propertyPath: m_RootOrder
@@ -83,6 +83,10 @@ PrefabInstance:
       propertyPath: IdleSprite
       value: 
       objectReference: {fileID: 21300000, guid: 4afd069c92307ab479ff3a2e9d685475, type: 3}
+    - target: {fileID: 8872346318179893503, guid: 40900764ab4d3864e95c4748fbb0d356, type: 3}
+      propertyPath: AttackRange
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8872346318179893503, guid: 40900764ab4d3864e95c4748fbb0d356, type: 3}
       propertyPath: AttackSprite
       value: 

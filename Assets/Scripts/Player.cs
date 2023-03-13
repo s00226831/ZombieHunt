@@ -53,7 +53,7 @@ public class Player : Character
     }
     private void FixedUpdate()
     {
-        body.MovePosition(transform.position + new Vector3 (h,v,0) * movementSpeed * Time.deltaTime);
+        body.MovePosition(transform.position + new Vector3 (h, v, 0) * movementSpeed * Time.deltaTime);
     }
     public void Fire()
     {
